@@ -32,7 +32,7 @@ function genSidebarConfig (title) {
   return [
     {
       title,
-      collapsable: false,
+      collapsable: true,
       children: [
         '',
         '客户管理',
@@ -42,7 +42,10 @@ function genSidebarConfig (title) {
         '标签管理',
         '群组管理',
         '会员管理',
-        '自定义对象管理'
+        '自定义对象管理',
+        '在用商品管理',
+        '订单管理',
+        'Webhook管理'
       ]
     }
   ]
