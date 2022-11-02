@@ -41,6 +41,8 @@ httpPost.setHeader("Authorization", token);
 ``` 
 接收Webhook消息的服务可以用相同的方法验证请求的完整性。
 
+
+
 ### OAuth2
 对于设置了OAuth2认证的 Webhook， 智慧营销平台首先会向token获取地址请求并获取access_token，然后携带access_token参数向消息接收地址发送消息。
 - 获取token的方式如下：
