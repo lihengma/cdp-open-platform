@@ -6,7 +6,7 @@ npm run build
 
 # 进入生成的文件夹
 # cp CNAME docs/.vuepress/dist/
-cd docs/.vuepress/dist
+cd dist
 
 
 git init
