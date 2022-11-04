@@ -3,7 +3,7 @@ module.exports = {
   description: "智慧营销平台开放平台",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/",
-  dest: "./dist",
+  dest: "../dist",
 
   themeConfig: {
     search: false,
